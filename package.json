@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "clean": "turbo clean"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.2",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@9.0.4",
+  "engines": {
+    "node": ">=18"
+  }
+}
